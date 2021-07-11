@@ -11,10 +11,10 @@ namespace ReSQLTest
     class Program
     {
         // hardcoded config to reduce damages when hacking
-        private static string database = "bandoleril_altv";
-        private static string user = "bandoleril_altv";
-        private static string password = "dWOHFrYQ2";
-        private static string server = "185.185.135.201";
+        private static string database = "";
+        private static string user = "";
+        private static string password = "";
+        private static string server = "";
 
         static void Main(string[] args)
         {
@@ -103,13 +103,9 @@ namespace ReSQLTest
                     AdminLevel = 0,
                     Bank = 0, 
                     Clan = 1,
-                    LastHardwareIdExHash = new long(),
-                    LastHardwareIdHash = new long(),
                     LastIP = "192.168.1.1", 
-                    Password = "3bafbf08882a2d10133093a1b8433f50563b93c14acd05b79028eb1d12799027241450980651994501423a66c276ae26c43b739bc65c4e16b10c3af6c202aebb", 
+                    Password = "11111", 
                     Skin=4231504125, 
-                    SocialClub=41233412415,
-                    Tag="{FF0000}מנהל הקהילה",
                     Username="Bandoler"
                 });
             }
@@ -166,16 +162,10 @@ namespace ReSQLTest
         public string Username { get; set; }
 
         [ReSQLSave]
-        public string Password { get; set; } // always hashed ^_^
+        public string Password { get; set; }
 
         [ReSQLSave]
         public string LastIP { get; set; }
-
-        [ReSQLSave]
-        public ulong LastHardwareIdHash { get; set; }
-
-        [ReSQLSave]
-        public ulong LastHardwareIdExHash { get; set; }
 
         [ReSQLSave]
         public ulong SocialClub { get; set; }
@@ -191,9 +181,5 @@ namespace ReSQLTest
 
         [ReSQLSave]
         public int Clan { get; set; }
-
-        [ReSQLSave]
-        public string Tag { get; set; }
-
     }
 }
