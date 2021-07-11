@@ -1,0 +1,12 @@
+C:\Users\Roi\source\repos\ReSQL\ReSQL\bin\Release\net5.0\ReSQL.deps.json
+C:\Users\Roi\source\repos\ReSQL\ReSQL\bin\Release\net5.0\ReSQL.dll
+C:\Users\Roi\source\repos\ReSQL\ReSQL\bin\Release\net5.0\ref\ReSQL.dll
+C:\Users\Roi\source\repos\ReSQL\ReSQL\bin\Release\net5.0\ReSQL.pdb
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.AssemblyInfoInputs.cache
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.AssemblyInfo.cs
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.csproj.CoreCompileInputs.cache
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.dll
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ref\ReSQL.dll
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.pdb
+C:\Users\Roi\source\repos\ReSQL\ReSQL\obj\Release\net5.0\ReSQL.csprojAssemblyReference.cache
