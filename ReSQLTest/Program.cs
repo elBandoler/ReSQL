@@ -168,9 +168,6 @@ namespace ReSQLTest
         public string LastIP { get; set; }
 
         [ReSQLSave]
-        public ulong SocialClub { get; set; }
-
-        [ReSQLSave]
         public uint AdminLevel { get; set; }
 
         [ReSQLSave]
@@ -178,8 +175,5 @@ namespace ReSQLTest
 
         [ReSQLSave]
         public int Bank { get; set; }
-
-        [ReSQLSave]
-        public int Clan { get; set; }
     }
 }
