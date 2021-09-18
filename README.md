@@ -1,10 +1,9 @@
-# ReSQL
-A MySQL/MariaDB wrapper (?) for C# (dotnet). It just works, that doesn't mean it's good.<br>
+# ReSQL [Abandoned]
+A MySQL/MariaDB wrapper for C# (dotnet).<br>
 This library was programmed a long time ago, after I used a similar library: <a href="https://github.com/oversight-group/ossql">OsSql</a>.<br>
 OsSql had some issues with whatever I was trying to do back then, and its code was a bit complicated to go through it.<br>
 Therefore I just made my own implementation of the same general idea from scratch.<br>
 I might have looked in OsSql for ideas and variable names every now and then, but I'm quite sure all of the code I wrote is my own.<br>
-Please don't sue 😅
 
 ## Why use this?
 Well, I'm not sure you should.<br>
